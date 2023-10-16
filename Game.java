@@ -36,10 +36,10 @@ public class Game{
 				System.out.println("");
 			}
 		if(guess>randomNum){
-			System.out.println("Nope! The Number is higher");
+			System.out.println("Nope! The Guessing Number is Lower");
 		}
 		else if(guess<randomNum){
-			System.out.println("Nope! The Number is lower");
+			System.out.println("Nope! The Guessing Number is Higher");
 		}
 		}
 
